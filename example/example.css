@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(243, 60, 115);
+}
+h1{
+    background-color: seagreen;
+    padding: 5px;
+    text-align: center;
+}
+p{
+    color: seashell;
+}
+.fancy {
+text-transform: uppercase;
+font-weight:bold;
+font-size:2.6em;
+color:palegoldenrod;
+border: 2px solid whitesmoke;
+padding: 10px 50px;
+margin: 40px;
+background-color: red;
+}
+
+#David {
+
+    width: 400px;
+}
+
+
+.megafancy {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.6em;
+}
