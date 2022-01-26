@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(252, 166, 201);
+    text-align: center;
+    margin: 0em 38%;
+    font-family: 'Roboto', normal;
+}
+
+.hover{
+    color: white;
+    font-size: 45px;
+}
+
+.hover:hover {
+    color: black;
+}
+
+
+.QuoteNames {
+    font-weight:bold;
+    color: white;
+    font-size: 16px
+}
+
+ol {
+    /* margin-left: 40%; */
+    text-align: left;
+    font-weight:bold;
+}
+
+li{
+    padding-top: 10px;
+}
+
+.Quote1 {
+    color: white;
+    font-family: Lora;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15px;
+    line-height: 170%;
+    
+}
+
+.Quote2 {
+    color: white;
+    font-family: Lora;
+    font-weight:normal;
+    margin: 0em 15%;
+    line-height: 140%
+}
+
+img {
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+h4 {
+    padding-top: 14px;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: small;
+    line-height: 120%;
+}
