@@ -21,7 +21,7 @@ header{
 
 nav a{
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -31,8 +31,8 @@ nav a:hover{
 }
 
 .book, .join{
-    background-color: #6AB187;
-    color: black;
+    background-color: #20948B;
+    color: white;
     text-decoration: none;
 }
 
