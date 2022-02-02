@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: rgb(121, 121, 121);
+    /* max-width: 50%; */
+    /* margin: 0 auto; */
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 15%;
+
+}
+
+.circle {
+    max-width: 200px;
+    border-radius: 50%;
+    border:10px solid rgb(68, 68, 68);
+}
+
+section{
+    padding: 0%
+}
+
+header{
+    position: relative;
+}
+
+#background{
+    max-width: 70%;
+    max-height: 50%;
+}
+
+
+h1{
+    position: absolute;
+    top: 32%;
+    right: 20%;
+    font-size: 40px;
+    font-family: "Rock Salt";
+    color: rgb(242, 255, 0);
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+
+}
+h2{
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    font-size: 25px;
+    font-family: "Rock Salt";
+    color: rgb(242, 255, 0);
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+
+}
