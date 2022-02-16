@@ -17,6 +17,7 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #20948B;
+    opacity: 0.9;
 }
 
 .icon{
