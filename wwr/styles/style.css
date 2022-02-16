@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
 body{
     font-family: 'Lora', 'Montserrat', sans-serif;
@@ -73,18 +73,19 @@ nav a:hover{
 }
 
 .home-title{
-    color: black;
-    font-size: 2em;
+    color: #DE7A22;
+    font-size: 4em;
     margin-top: 10px;
+    margin-bottom: -20px;
+    font-family: 'Quintessential', 'Lora', sans-serif;
+    text-shadow: -1px 1px 0 White,
+                          1px 1px 0 White,
+                         1px -1px 0 White,
+                        -1px -1px 0 White;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color: white;
-}
-
-h1 {
-    font-family: 'Montserrat', 'Lora', sans-serif;
 }
 
 #hero {
@@ -111,6 +112,11 @@ h1 {
 
 #hero-msg h4 {
     color: white;
+    font-size: 25px;
+    text-shadow: -1px 1px 0 #20948B,
+                          1px 1px 0 #20948B,
+                         1px -1px 0 #20948B,
+                        -1px -1px 0 #20948B;
 }
 
 .button-box{
