@@ -93,6 +93,38 @@ nav a:hover{
     border: 20px solid #104547;
 }
 
+#game-purpose {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    background-color: #a95b79;
+    border: 20px solid #104547;
+}
+
+#tips {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    background-color: #a95b79;
+    border: 20px solid #104547;
+}
+
+#gallery{
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    /* background-color: #a95b79; */
+    border: 20px solid #a95b79;
+}
+
  h2 {
     font-size: 30px;
 }
@@ -109,6 +141,26 @@ nav a:hover{
   -2px -2px 0 #a95b79;
 }
 
+#gallery_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+#gallery_grid img{
+    width: 400px;
+}
+
+#video{
+    text-align: center;
+    margin: auto;
+}
+
+iframe{
+    border: 20px solid #a95b79;
+}
 
 .selection {
     width: 400px;
@@ -131,5 +183,5 @@ footer a{
 }
 
 footer a:hover{
-    color: #D2D6EF;
+    color: #ffffff;
 }
