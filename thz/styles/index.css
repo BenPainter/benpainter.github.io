@@ -13,6 +13,8 @@ h1, h2 {
 p {
     font-family: "EB Garamond", Helvetica, sans-serif;
     font-size: 20px;
+    line-height: 180%;
+    font-size: 135%;
 }
 header {
     background-color: #104547;
@@ -105,6 +107,94 @@ nav a:hover{
     border: 20px solid #104547;
 }
 
+#future-purpose {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    background-color: #a95b79;
+    border: 20px solid #104547;
+}
+
+#game2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    background-color: #a95b79;
+    border: 20px solid #104547;
+}
+
+#game2 img{
+    padding-left: 100px;
+    width: 300px;
+}
+
+#game3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    background-color: #104547;
+    border: 20px solid #a95b79;
+    color: #D2D6EF;
+}
+
+#game3 img {
+    width: 500px;
+    height: 300px;
+}
+
+#game3 h2{
+    text-shadow: -2px 2px 0 #a95b79,
+    2px 2px 0 #a95b79,
+   2px -2px 0 #a95b79,
+  -2px -2px 0 #a95b79;
+}
+
+#future-purpose img{
+    width: 750px;
+}
+
+
+#about-me {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+    column-gap: 100px;
+    background-color: #a95b79;
+    border: 20px solid #104547;
+
+
+}
+
+#about-me img{
+    padding-left: 60px;
+    width: 450px;
+}
+
+#about-me h2{
+    margin-top: -10px;
+    text-align: center;
+}
+
+#about-me p {
+    margin-top: 50px;
+}
+
 #tips {
     padding: 30px;
     padding-left: 50px;
@@ -115,6 +205,10 @@ nav a:hover{
     border: 20px solid #104547;
 }
 
+#tips p {
+    line-height: 80%;
+}
+
 #gallery{
     padding: 30px;
     padding-left: 50px;
@@ -123,6 +217,12 @@ nav a:hover{
     column-gap: 100px;
     /* background-color: #a95b79; */
     border: 20px solid #a95b79;
+    color: #D2D6EF;
+    text-shadow: -2px 2px 0 #a95b79,
+    2px 2px 0 #a95b79,
+   2px -2px 0 #a95b79,
+  -2px -2px 0 #a95b79;
+    
 }
 
  h2 {
